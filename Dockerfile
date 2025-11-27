@@ -8,8 +8,9 @@ WORKDIR /app
  
  
 # Copy local code to the container image.
-COPY . ./
+COPY . .
  
+RUN ls -la
  
 # Build the app.
 RUN chmod +x ./gradlew
