@@ -31,9 +31,9 @@ public class Producto {
     private String categoria;
 
     @Column(nullable = false)
-    private boolean oferta;
+    private boolean oferta = false;
 
     @Column(nullable = true)
-    private int oferPorcentaje;
+    private int oferPorcentaje = 0;
 }
 

@@ -9,6 +9,16 @@
       "projectName": "backend_inventario_gametech1",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-InventarioApplication<Inventario-backend_inventario_gametech1>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "Print3D.Inventario.InventarioApplication",
+      "projectName": "Inventario-backend_inventario_gametech1",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
     }
   ]
 }
